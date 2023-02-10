@@ -1,0 +1,108 @@
+.modal {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modalDelete {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    min-width: 350px;
+    padding: 25px 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.modalDeleteText {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 17px;
+    font-family: 'US';
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+.modalDeleteTrue {
+    border-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    background: #DC3E22;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 19px 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    font-family: 'US';
+    color: #FFFFFF;
+}
+
+.modalDeleteTrueEdit {
+    border-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    background: #DC3E22;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 19px 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    font-family: 'US';
+    color: #FFFFFF;
+    background-color: #A8B64F;
+}
+
+.modalDeleteFalse {
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 17px;
+    font-family: 'US';
+    color: #333333;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.modalDelete svg {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    cursor: pointer;
+}
+
+.input {
+    width: 80%;
+    border-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.input input {
+    border-style: none;
+    border: 1px solid #c4c4c4;
+    width: 100%;
+    padding: 10px 12px;
+}
+
+.input input::placeholder {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 17px;
+    font-family: 'US';
+    color: #333333;
+}
