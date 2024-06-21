@@ -4,6 +4,7 @@ import { App } from './shared/App'
 
 const root = document.getElementById('react-root');
 
+
 if (root)
   createRoot(root).render(
     <React.StrictMode>
